@@ -1,0 +1,424 @@
+??:??:?? **** Rebuild of configuration Debug for project Ex_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Ex_1.o "..\\Ex_1.c" 
+..\Ex_1.c:20:14: error: flexible array member not at end of struct
+   20 |         char name[];
+      |              ^~~~
+..\Ex_1.c: In function 'main':
+..\Ex_1.c:33:9: warning: implicit declaration of function 'pritnf'; did you mean 'printf'? [-Wimplicit-function-declaration]
+   33 |         pritnf("enter information of student:\n");
+      |         ^~~~~~
+      |         printf
+..\Ex_1.c:37:17: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+   37 |         scanf("%d",s.rollNum);
+      |                ~^  ~~~~~~~~~
+      |                 |   |
+      |                 |   int
+      |                 int *
+..\Ex_1.c:39:17: warning: format '%f' expects argument of type 'float *', but argument 2 has type 'double' [-Wformat=]
+   39 |         scanf("%f",s.mark);
+      |                ~^  ~~~~~~
+      |                 |   |
+      |                 |   double
+      |                 float *
+??:??:?? **** Incremental Build of configuration Debug for project Ex_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Ex_1.o "..\\Ex_1.c" 
+..\Ex_1.c: In function 'main':
+..\Ex_1.c:33:9: warning: implicit declaration of function 'pritnf'; did you mean 'printf'? [-Wimplicit-function-declaration]
+   33 |         pritnf("enter information of student:\n");
+      |         ^~~~~~
+      |         printf
+..\Ex_1.c:37:17: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+   37 |         scanf("%d",s.rollNum);
+      |                ~^  ~~~~~~~~~
+      |                 |   |
+      |                 |   int
+      |                 int *
+..\Ex_1.c:39:17: warning: format '%f' expects argument of type 'float *', but argument 2 has type 'double' [-Wformat=]
+   39 |         scanf("%f",s.mark);
+      |                ~^  ~~~~~~
+      |                 |   |
+      |                 |   double
+      |                 float *
+gcc -o Ex_1.exe Ex_1.o 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: Ex_1.o: in function `main':
+G:\Learn in depth\Assignments\2_C_Programming_Language\Lesson_6\Homework_5_code\Ex_1\Debug/../Ex_1.c:33: undefined reference to `pritnf'
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: G:\Learn in depth\Assignments\2_C_Programming_Language\Lesson_6\Homework_5_code\Ex_1\Debug/../Ex_1.c:40: undefined reference to `pritnf'
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: G:\Learn in depth\Assignments\2_C_Programming_Language\Lesson_6\Homework_5_code\Ex_1\Debug/../Ex_1.c:41: undefined reference to `pritnf'
+collect2.exe: error: ld returned 1 exit status
+??:??:?? **** Incremental Build of configuration Debug for project Ex_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Ex_1.o "..\\Ex_1.c" 
+..\Ex_1.c: In function 'main':
+..\Ex_1.c:37:17: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+   37 |         scanf("%d",s.rollNum);
+      |                ~^  ~~~~~~~~~
+      |                 |   |
+      |                 |   int
+      |                 int *
+..\Ex_1.c:39:17: warning: format '%f' expects argument of type 'float *', but argument 2 has type 'double' [-Wformat=]
+   39 |         scanf("%f",s.mark);
+      |                ~^  ~~~~~~
+      |                 |   |
+      |                 |   double
+      |                 float *
+..\Ex_1.c:40:9: warning: implicit declaration of function 'pritnf'; did you mean 'printf'? [-Wimplicit-function-declaration]
+   40 |         pritnf("\n\nenter information of student:\n");
+      |         ^~~~~~
+      |         printf
+gcc -o Ex_1.exe Ex_1.o 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: Ex_1.o: in function `main':
+G:\Learn in depth\Assignments\2_C_Programming_Language\Lesson_6\Homework_5_code\Ex_1\Debug/../Ex_1.c:40: undefined reference to `pritnf'
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: G:\Learn in depth\Assignments\2_C_Programming_Language\Lesson_6\Homework_5_code\Ex_1\Debug/../Ex_1.c:41: undefined reference to `pritnf'
+collect2.exe: error: ld returned 1 exit status
+??:??:?? **** Incremental Build of configuration Debug for project Ex_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Ex_1.o "..\\Ex_1.c" 
+..\Ex_1.c: In function 'main':
+..\Ex_1.c:37:17: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+   37 |         scanf("%d",s.rollNum);
+      |                ~^  ~~~~~~~~~
+      |                 |   |
+      |                 |   int
+      |                 int *
+..\Ex_1.c:39:17: warning: format '%f' expects argument of type 'float *', but argument 2 has type 'double' [-Wformat=]
+   39 |         scanf("%f",s.mark);
+      |                ~^  ~~~~~~
+      |                 |   |
+      |                 |   double
+      |                 float *
+gcc -o Ex_1.exe Ex_1.o 
+Info: Nothing to build for Ex_1
+??:??:?? **** Incremental Build of configuration Debug for project Ex_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Ex_1.o "..\\Ex_1.c" 
+..\Ex_1.c: In function 'main':
+..\Ex_1.c:35:17: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'char (*)[50]' [-Wformat=]
+   35 |         scanf("%s",&s.name);
+      |                ~^  ~~~~~~~
+      |                 |  |
+      |                 |  char (*)[50]
+      |                 char *
+gcc -o Ex_1.exe Ex_1.o 
+Info: Nothing to build for Ex_1
+??:??:?? **** Incremental Build of configuration Debug for project Ex_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Ex_1.o "..\\Ex_1.c" 
+..\Ex_1.c: In function 'main':
+..\Ex_1.c:35:17: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'char (*)[50]' [-Wformat=]
+   35 |         scanf("%s",&s.name);
+      |                ~^  ~~~~~~~
+      |                 |  |
+      |                 |  char (*)[50]
+      |                 char *
+gcc -o Ex_1.exe Ex_1.o 
+Info: Nothing to build for Ex_1
+??:??:?? **** Incremental Build of configuration Debug for project Ex_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Ex_1.o "..\\Ex_1.c" 
+..\Ex_1.c: In function 'main':
+..\Ex_1.c:35:17: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'char (*)[50]' [-Wformat=]
+   35 |         scanf("%s",&s.name);
+      |                ~^  ~~~~~~~
+      |                 |  |
+      |                 |  char (*)[50]
+      |                 char *
+gcc -o Ex_1.exe Ex_1.o 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file Ex_1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+??:??:?? **** Incremental Build of configuration Debug for project Ex_1 ****
+Info: Internal Builder is used for build
+gcc -o Ex_1.exe Ex_1.o 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file Ex_1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+??:??:?? **** Incremental Build of configuration Debug for project Ex_1 ****
+Info: Internal Builder is used for build
+gcc -o Ex_1.exe Ex_1.o 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file Ex_1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+??:??:?? **** Incremental Build of configuration Debug for project Ex_1 ****
+Info: Internal Builder is used for build
+gcc -o Ex_1.exe Ex_1.o 
+Info: Nothing to build for Ex_1
+??:??:?? **** Incremental Build of configuration Debug for project Ex_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Ex_1.o "..\\Ex_1.c" 
+..\Ex_1.c: In function 'main':
+..\Ex_1.c:35:17: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'char (*)[50]' [-Wformat=]
+   35 |         scanf("%s",&s.name);
+      |                ~^  ~~~~~~~
+      |                 |  |
+      |                 |  char (*)[50]
+      |                 char *
+gcc -o Ex_1.exe Ex_1.o 
+??:??:?? **** Rebuild of configuration Debug for project Ex_2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Ex_2.o "..\\Ex_2.c" 
+..\Ex_2.c: In function 'main':
+..\Ex_2.c:46:9: warning: implicit declaration of function 'pritnf'; did you mean 'printf'? [-Wimplicit-function-declaration]
+   46 |         pritnf("Enter information of 1st distance\n\n");
+      |         ^~~~~~
+      |         printf
+gcc -o Ex_2.exe Ex_2.o 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: Ex_2.o: in function `main':
+G:\Learn in depth\Assignments\2_C_Programming_Language\Lesson_6\Homework_5_code\Ex_2\Debug/../Ex_2.c:46: undefined reference to `pritnf'
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: G:\Learn in depth\Assignments\2_C_Programming_Language\Lesson_6\Homework_5_code\Ex_2\Debug/../Ex_2.c:51: undefined reference to `pritnf'
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Ex_1
+??:??:?? **** Incremental Build of configuration Debug for project Ex_2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Ex_2.o "..\\Ex_2.c" 
+..\Ex_2.c: In function 'main':
+..\Ex_2.c:51:9: warning: implicit declaration of function 'pritnf'; did you mean 'printf'? [-Wimplicit-function-declaration]
+   51 |         pritnf("/n/nEnter information of 2nd distance\n\n");
+      |         ^~~~~~
+      |         printf
+gcc -o Ex_2.exe Ex_2.o 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: Ex_2.o: in function `main':
+G:\Learn in depth\Assignments\2_C_Programming_Language\Lesson_6\Homework_5_code\Ex_2\Debug/../Ex_2.c:51: undefined reference to `pritnf'
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Ex_1
+??:??:?? **** Incremental Build of configuration Debug for project Ex_2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Ex_2.o "..\\Ex_2.c" 
+gcc -o Ex_2.exe Ex_2.o 
+Info: Nothing to build for Ex_2
+Info: Nothing to build for Ex_1
+??:??:?? **** Incremental Build of configuration Debug for project Ex_2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Ex_2.o "..\\Ex_2.c" 
+gcc -o Ex_2.exe Ex_2.o 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file Ex_2.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Ex_1
+??:??:?? **** Incremental Build of configuration Debug for project Ex_2 ****
+Info: Internal Builder is used for build
+gcc -o Ex_2.exe Ex_2.o 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file Ex_2.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+??:??:?? **** Incremental Build of configuration Debug for project Ex_2 ****
+Info: Internal Builder is used for build
+gcc -o Ex_2.exe Ex_2.o 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file Ex_2.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+??:??:?? **** Incremental Build of configuration Debug for project Ex_2 ****
+Info: Internal Builder is used for build
+gcc -o Ex_2.exe Ex_2.o 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file Ex_2.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Ex_1
+??:??:?? **** Incremental Build of configuration Debug for project Ex_2 ****
+Info: Internal Builder is used for build
+gcc -o Ex_2.exe Ex_2.o 
+Info: Nothing to build for Ex_2
+??:??:?? **** Incremental Build of configuration Debug for project Ex_2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Ex_2.o "..\\Ex_2.c" 
+gcc -o Ex_2.exe Ex_2.o 
+Info: Nothing to build for Ex_1
+Info: Nothing to build for Ex_2
+??:??:?? **** Rebuild of configuration Debug for project Ex_3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Ex_3.o "..\\Ex_3.c" 
+gcc -o Ex_3.exe Ex_3.o 
+Info: Nothing to build for Ex_3
+Info: Nothing to build for Ex_3
+Info: Nothing to build for Ex_1
+Info: Nothing to build for Ex_2
+??:??:?? **** Incremental Build of configuration Debug for project Ex_3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Ex_3.o "..\\Ex_3.c" 
+..\Ex_3.c: In function 'main':
+..\Ex_3.c:51:60: error: empty character constant
+   51 |         printf("\nSum = %g%c%gi",temp.real,temp.imag>0?'+':'',temp.imag);
+      |                                                            ^~
+Info: Nothing to build for Ex_1
+Info: Nothing to build for Ex_2
+??:??:?? **** Incremental Build of configuration Debug for project Ex_3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Ex_3.o "..\\Ex_3.c" 
+gcc -o Ex_3.exe Ex_3.o 
+Info: Nothing to build for Ex_3
+Info: Nothing to build for Ex_3
+Info: Nothing to build for Ex_1
+Info: Nothing to build for Ex_2
+Info: Nothing to build for Ex_3
+??:??:?? **** Rebuild of configuration Debug for project Ex_4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Ex_4.o "..\\Ex_4.c" 
+..\Ex_4.c: In function 'main':
+..\Ex_4.c:34:18: warning: array subscript has type 'char' [-Wchar-subscripts]
+   34 |                 s[i].roll=i;
+      |                  ^
+..\Ex_4.c:37:17: warning: implicit declaration of function 'scnaf'; did you mean 'scanf'? [-Wimplicit-function-declaration]
+   37 |                 scnaf("%s",&s[i].name);
+      |                 ^~~~~
+      |                 scanf
+..\Ex_4.c:37:30: warning: array subscript has type 'char' [-Wchar-subscripts]
+   37 |                 scnaf("%s",&s[i].name);
+      |                              ^
+..\Ex_4.c:39:30: warning: array subscript has type 'char' [-Wchar-subscripts]
+   39 |                 scnaf("%d",&s[i].mark);
+      |                              ^
+..\Ex_4.c:46:46: warning: array subscript has type 'char' [-Wchar-subscripts]
+   46 |                         printf("Name: %s\n",s[i].name);
+      |                                              ^
+..\Ex_4.c:47:47: warning: array subscript has type 'char' [-Wchar-subscripts]
+   47 |                         printf("Marks: %d\n",s[i].mark);
+      |                                               ^
+gcc -o Ex_4.exe Ex_4.o 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: Ex_4.o: in function `main':
+G:\Learn in depth\Assignments\2_C_Programming_Language\Lesson_6\Homework_5_code\Ex_4\Debug/../Ex_4.c:37: undefined reference to `scnaf'
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: G:\Learn in depth\Assignments\2_C_Programming_Language\Lesson_6\Homework_5_code\Ex_4\Debug/../Ex_4.c:39: undefined reference to `scnaf'
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Ex_1
+Info: Nothing to build for Ex_2
+Info: Nothing to build for Ex_3
+??:??:?? **** Incremental Build of configuration Debug for project Ex_4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Ex_4.o "..\\Ex_4.c" 
+..\Ex_4.c: In function 'main':
+..\Ex_4.c:34:18: warning: array subscript has type 'char' [-Wchar-subscripts]
+   34 |                 s[i].roll=i;
+      |                  ^
+..\Ex_4.c:37:30: warning: array subscript has type 'char' [-Wchar-subscripts]
+   37 |                 scanf("%s",&s[i].name);
+      |                              ^
+..\Ex_4.c:37:25: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'char (*)[50]' [-Wformat=]
+   37 |                 scanf("%s",&s[i].name);
+      |                        ~^  ~~~~~~~~~~
+      |                         |  |
+      |                         |  char (*)[50]
+      |                         char *
+..\Ex_4.c:39:17: warning: implicit declaration of function 'scnaf'; did you mean 'scanf'? [-Wimplicit-function-declaration]
+   39 |                 scnaf("%d",&s[i].mark);
+      |                 ^~~~~
+      |                 scanf
+..\Ex_4.c:39:30: warning: array subscript has type 'char' [-Wchar-subscripts]
+   39 |                 scnaf("%d",&s[i].mark);
+      |                              ^
+..\Ex_4.c:46:46: warning: array subscript has type 'char' [-Wchar-subscripts]
+   46 |                         printf("Name: %s\n",s[i].name);
+      |                                              ^
+..\Ex_4.c:47:47: warning: array subscript has type 'char' [-Wchar-subscripts]
+   47 |                         printf("Marks: %d\n",s[i].mark);
+      |                                               ^
+gcc -o Ex_4.exe Ex_4.o 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: Ex_4.o: in function `main':
+G:\Learn in depth\Assignments\2_C_Programming_Language\Lesson_6\Homework_5_code\Ex_4\Debug/../Ex_4.c:39: undefined reference to `scnaf'
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Ex_1
+Info: Nothing to build for Ex_2
+Info: Nothing to build for Ex_3
+??:??:?? **** Incremental Build of configuration Debug for project Ex_4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Ex_4.o "..\\Ex_4.c" 
+..\Ex_4.c: In function 'main':
+..\Ex_4.c:34:18: warning: array subscript has type 'char' [-Wchar-subscripts]
+   34 |                 s[i].roll=i;
+      |                  ^
+..\Ex_4.c:37:30: warning: array subscript has type 'char' [-Wchar-subscripts]
+   37 |                 scanf("%s",&s[i].name);
+      |                              ^
+..\Ex_4.c:37:25: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'char (*)[50]' [-Wformat=]
+   37 |                 scanf("%s",&s[i].name);
+      |                        ~^  ~~~~~~~~~~
+      |                         |  |
+      |                         |  char (*)[50]
+      |                         char *
+..\Ex_4.c:39:30: warning: array subscript has type 'char' [-Wchar-subscripts]
+   39 |                 scanf("%d",&s[i].mark);
+      |                              ^
+..\Ex_4.c:46:46: warning: array subscript has type 'char' [-Wchar-subscripts]
+   46 |                         printf("Name: %s\n",s[i].name);
+      |                                              ^
+..\Ex_4.c:47:47: warning: array subscript has type 'char' [-Wchar-subscripts]
+   47 |                         printf("Marks: %d\n",s[i].mark);
+      |                                               ^
+gcc -o Ex_4.exe Ex_4.o 
+Info: Nothing to build for Ex_4
+??:??:?? **** Incremental Build of configuration Debug for project Ex_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Ex_1.o "..\\Ex_1.c" 
+..\Ex_1.c: In function 'main':
+..\Ex_1.c:35:17: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'char (*)[50]' [-Wformat=]
+   35 |         scanf("%s",&s.name);
+      |                ~^  ~~~~~~~
+      |                 |  |
+      |                 |  char (*)[50]
+      |                 char *
+gcc -o Ex_1.exe Ex_1.o 
+??:??:?? **** Incremental Build of configuration Debug for project Ex_2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Ex_2.o "..\\Ex_2.c" 
+gcc -o Ex_2.exe Ex_2.o 
+??:??:?? **** Incremental Build of configuration Debug for project Ex_3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Ex_3.o "..\\Ex_3.c" 
+gcc -o Ex_3.exe Ex_3.o 
+??:??:?? **** Incremental Build of configuration Debug for project Ex_4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Ex_4.o "..\\Ex_4.c" 
+..\Ex_4.c: In function 'main':
+..\Ex_4.c:34:18: warning: array subscript has type 'char' [-Wchar-subscripts]
+   34 |                 s[i].roll=i;
+      |                  ^
+..\Ex_4.c:37:30: warning: array subscript has type 'char' [-Wchar-subscripts]
+   37 |                 scanf("%s",&s[i].name);
+      |                              ^
+..\Ex_4.c:37:25: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'char (*)[50]' [-Wformat=]
+   37 |                 scanf("%s",&s[i].name);
+      |                        ~^  ~~~~~~~~~~
+      |                         |  |
+      |                         |  char (*)[50]
+      |                         char *
+..\Ex_4.c:39:30: warning: array subscript has type 'char' [-Wchar-subscripts]
+   39 |                 scanf("%d",&s[i].mark);
+      |                              ^
+..\Ex_4.c:46:46: warning: array subscript has type 'char' [-Wchar-subscripts]
+   46 |                         printf("Name: %s\n",s[i].name);
+      |                                              ^
+..\Ex_4.c:47:47: warning: array subscript has type 'char' [-Wchar-subscripts]
+   47 |                         printf("Marks: %d\n",s[i].mark);
+      |                                               ^
+gcc -o Ex_4.exe Ex_4.o 
+??:??:?? **** Rebuild of configuration Debug for project Ex_5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Ex_5.o "..\\Ex_5.c" 
+gcc -o Ex_5.exe Ex_5.o 
+Info: Nothing to build for Ex_5
+Info: Nothing to build for Ex_1
+Info: Nothing to build for Ex_2
+Info: Nothing to build for Ex_3
+Info: Nothing to build for Ex_4
+??:??:?? **** Incremental Build of configuration Debug for project Ex_5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Ex_5.o "..\\Ex_5.c" 
+gcc -o Ex_5.exe Ex_5.o 
+Info: Nothing to build for Ex_5
+Info: Nothing to build for Ex_1
+Info: Nothing to build for Ex_2
+Info: Nothing to build for Ex_3
+Info: Nothing to build for Ex_4
+??:??:?? **** Incremental Build of configuration Debug for project Ex_5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Ex_5.o "..\\Ex_5.c" 
+..\Ex_5.c: In function 'main':
+..\Ex_5.c:36:18: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   36 |         printf("%d",sizeof(a));
+      |                 ~^  ~~~~~~~~~
+      |                  |  |
+      |                  |  long long unsigned int
+      |                  int
+      |                 %lld
+gcc -o Ex_5.exe Ex_5.o 
+Info: Nothing to build for Ex_5
+Info: Nothing to build for Ex_1
+Info: Nothing to build for Ex_2
+Info: Nothing to build for Ex_3
+Info: Nothing to build for Ex_4
+??:??:?? **** Incremental Build of configuration Debug for project Ex_5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Ex_5.o "..\\Ex_5.c" 
+gcc -o Ex_5.exe Ex_5.o 

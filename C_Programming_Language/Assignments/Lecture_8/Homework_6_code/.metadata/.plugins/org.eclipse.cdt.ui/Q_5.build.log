@@ -1,0 +1,7 @@
+??:??:?? **** Incremental Build of configuration Debug for project Q_5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Q_5.o "..\\Q_5.c" 
+gcc -o Q_5.exe Q_5.o 
+
+??:??:?? Build Finished. 0 errors, 0 warnings. (took 307ms)
+

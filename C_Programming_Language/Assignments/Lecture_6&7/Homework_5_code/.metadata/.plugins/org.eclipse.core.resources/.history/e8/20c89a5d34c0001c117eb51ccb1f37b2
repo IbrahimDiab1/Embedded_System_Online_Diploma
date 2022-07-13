@@ -1,0 +1,14 @@
+/*
+ ============================================================================
+ Name        : EX_2_Macro.c
+ Author      : Ibrahim_Diab
+ Version     : First one
+ Copyright   : Available
+ Description : EX_2 in macro in C, Ansi-style
+ ============================================================================
+ */
+
+/*
+ * Program to Store Information(name, roll and marks) of a Student Using Structure
+ */
+
