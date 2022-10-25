@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename resource &apos;embedded_c_1&apos; to &apos;Toogle_Lab_1&apos;" description="Rename resource &apos;embedded_c_1&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/embedded_c_1" name="Toogle_Lab_1" stamp="1657906121205" updateReferences="true"/>
-</session>
